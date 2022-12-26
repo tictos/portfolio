@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="hero">
+        <div class="main-width">
+            <header>
+                <div class="logo">
+                    <i class="bx bx-code"></i>
+                </div>
+
+                <nav>
+                    <div class="hamb">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Travail</a></li>
+                        <li class="btn"><a href="#">Me Contacter</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="container">
+                <div class="hero-text">
+                    <h3>Salut !</h3>
+                    <h1>Je suis <span class="input"></span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem fuga suscipit eligendi, iusto velit soluta placeat incidunt fugiat aperiam autem facilis obcaecati laboriosam harum eius recusandae eaque quibusdam aspernatur laudantium.</p>
+                    <div class="social">
+                        <a href=""><i class="bx bxl-facebook"></i></a>
+                        <a href=""><i class="bx bxl-instagram"></i></a>
+                        <a href=""><i class="bx bxl-telegram"></i></a>
+                        <a href=""><i class="bx bxl-tiktok"></i></a>
+                        <a href=""><i class="bx bxl-twitter"></i></a>
+                    </div>
+
+                    <button type="button">More About Me</button>
+                </div>
+                <div class="bottom">
+                    <p>tic-tech digital</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed(".input", {
+            strings: ["Ibrahim Dioubaté.","Dévéloppeur Web.","Designer Web.","Photographe."],
+            typeSpeed: 70,
+            backSpeed: 60,
+            loop: true
+        })
+    </script>
+</body>
+</html>
